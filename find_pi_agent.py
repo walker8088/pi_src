@@ -44,7 +44,7 @@ class MyApp():
         self.pidfile_timeout = 5
 	
     def run(self):
-	if sys.platform == 'linux2' and is_server_ok('60.216.4.132'):
+	if is_server_ok('60.216.4.132'):
 		pass
 		
 	#sock = socket(AF_INET, SOCK_DGRAM)
